@@ -1,7 +1,7 @@
 /*
 Theme Name: cupcakess
 Theme URI: http://underscores.me/
-Author: mah team
+Author: mah team (Mohammad Hussein, Hala Ayyad, Alaa Harb)
 Author URI: http://phoenix.sheridanc.on.ca/~ccit3443
 Description: a theme created for assignment two (theme assignment) for cct460
 Version: 1.0.0
@@ -115,6 +115,7 @@ dfn {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+	text-align: center;
 }
 
 mark {
@@ -284,6 +285,7 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
+	font-size: 1em;
 }
 
 dfn,
