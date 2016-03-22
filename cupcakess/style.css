@@ -154,7 +154,7 @@ html {
 }
 
 body {
-	background-color: #fff4f6;
+	background-color: #ffffff;
 	color: #747474;
 	font-family: 'Century Gothic', Arial, Helvetica, Tahoma, sans-serif;
 	font-size: 100%
@@ -415,8 +415,7 @@ textarea {
 	color: #191213;
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 16px;
-	font-size: 1rem;
-	font-weight: bold;
+	font-size: 1em;
 	line-height: 1.6;
 	padding: 0.2em;
 }
@@ -629,7 +628,16 @@ table {
 	align-content: center;
 }
  
+.site-main {
+	float:left;
+	margin-bottom: 2em;
+	width: 66.666667%; 
+}
 
+
+.main-page-wrap {
+	width:%;
+}
 
 #secondary {
 	float: right;
@@ -645,9 +653,10 @@ table {
 	background-color: #ffeaed;
 	border: 2px solid #e5a3ad;
 	border-radius: 12px;
+	clear: both;
 	padding: 13px;
 	text-align: -webkit-right;
-	clear: both;
+
 
 }
 
@@ -793,19 +802,17 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	background-color:#ffe3e7;
-	border: 1.5px solid #e5a3ad;
+	background-color:#ffe9ec;
+	border: 1.7px solid #e5a3ad;
 	border-radius: 15px;
 	clear: both;
 	display: inline-block;
 	float: left;
 	text-decoration: none;
 	text-transform: lowercase;
-	letter-spacing: 0.234em;
 	line-height: 2.5;
 	margin: 0.75 0 3em;
 	width: 100%;
-	padding-left: 12px;
 	padding-bottom: 0px 
 	
 }
@@ -827,16 +834,17 @@ a:active {
 .main-navigation a {
 	color: #a8a8a8;
 	font-weight: normal;
+	letter-spacing: 0.05555em;
+	text-transform: uppercase;
 	display: inline-block;
 	text-decoration: none;
-	text-transform: uppercase;
-	padding-bottom: 5px
+	padding-bottom: 1px
 }
 
 .main-navigation ul ul {
-	background: #fffcfc;
+	background: #fff9fa;
 	border: 1.5px solid #ff96a6;
-	border-radius: 7px;
+	border-radius: 13px;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	padding: 3px;
@@ -853,19 +861,16 @@ a:active {
 
 .main-navigation ul ul a {
 	width: 230px;
-	color: #ff8396;
-	letter-spacing: none;
 }
 
 .main-navigation ul ul li {
 	padding-left:15px;
-	letter-spacing:0;
 
 }
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
-	color:#ff8396;
+	color: #ff637b;
 }
 
 .main-navigation ul ul :hover > a,
