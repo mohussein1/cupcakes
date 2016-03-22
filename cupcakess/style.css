@@ -164,6 +164,12 @@ body {
 	padding: 0;
 }
 
+.container {
+float: none;
+display: inline-block;
+width: 100%;
+}
+
 article,
 aside,
 details,
@@ -383,6 +389,20 @@ td,
 th {
 	padding: 0;
 }
+
+.content-area{
+float: center;
+}
+
+#grid 
+{
+	overflow: hidden; 
+	float: left; 
+	height: 300px;
+	width: 300px; 
+
+}
+
 
 /*--------------------------------------------------------------
 # Typography
@@ -606,8 +626,10 @@ table {
 	margin: auto;
 	padding: 20px;
 	width: 93.75%;
-	float: left;
+	align-content: center;
 }
+ 
+
 
 #secondary {
 	float: right;
@@ -620,16 +642,26 @@ table {
 }
 
 #colophon {
-	clear: both;
 	background-color: #ffeaed;
 	border: 2px solid #e5a3ad;
 	border-radius: 12px;
 	padding: 13px;
 	text-align: -webkit-right;
-	margin-left: 5px;
-	margin-right: 5px;
 
 }
+
+p.copyright{
+	float:right;
+	text-align: right;
+}
+
+.credits
+{
+
+	float:right;
+	text-align: right;
+	width:960px;
+	}
 
 /*--------------------------------------------------------------
 # Forms
@@ -855,6 +887,14 @@ a:active {
 .main-navigation .current-menu-ancestor > a {
 }
 
+
+.div.site-branding.container
+{
+	display: inline-block;
+	width: 100%;
+}
+
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -985,6 +1025,9 @@ a:active {
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /* Make sure select elements fit in widgets. */
