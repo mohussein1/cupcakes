@@ -647,6 +647,7 @@ table {
 	border-radius: 12px;
 	padding: 13px;
 	text-align: -webkit-right;
+	clear: both;
 
 }
 
