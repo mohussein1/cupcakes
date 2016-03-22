@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Main Page Template
+ * Template Name: Strawberry Cupcakes Template
  *
  * @package cupcakess
  **/
@@ -10,9 +10,9 @@ get_header(); ?>
 
 <div class="main-page-wrap">
 <?php
-	$args = array('posts_per_page' => 10, 'order' => 'ASC' );
+	$args = array('posts_per_page' => 15, 'order' => 'ASC' );
 	$my_query = new WP_Query($args);
-	$my_query = new WP_Query( 'cat=19' );
+	$my_query = new WP_Query( 'cat=8' );
 ?>
 
 <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
@@ -23,7 +23,7 @@ get_header(); ?>
 	
 <?php if ( has_post_thumbnail() ) : ?>
 	<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-	<img src="<?php the_post_thumbnail_url(); ?>" width="160" height="160"/>
+	<img src="<?php the_post_thumbnail_url(); ?>" width="300" height="200"/>
 	</a>
 <?php endif; ?>
 	</div>
@@ -35,9 +35,4 @@ get_header(); ?>
 
 </div>
 
-
-
-
-
-
-
+<?php get_footer(); ?>
