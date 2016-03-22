@@ -731,7 +731,7 @@ a:active {
 	line-height: 2.5;
 	margin: 0.75 0 3em;
 	width: 100%;
-	padding-left: 100px;
+	padding-left: 110px;
 	padding-bottom: 0px 
 	
 }
@@ -754,13 +754,18 @@ a:active {
 	color: #ff8799;
 	display: inline-block;
 	text-decoration: none;
+	padding-bottom: 10px
 }
 
 .main-navigation ul ul {
+	background: #ffffff;
+	border: 1.5px solid #ff96a6;
+	border-radius: 13px;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
+	padding: 3px;
 	position: absolute;
-	top: 1.5em;
+	top: 2.7em;
 	left: -999em;
 	z-index: 99999;
 }
@@ -771,10 +776,11 @@ a:active {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	width: 230px;
 }
 
 .main-navigation ul ul li {
+	padding-left:15px;
 
 }
 
