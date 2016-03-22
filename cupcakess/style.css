@@ -609,6 +609,24 @@ table {
 	align-content: center;
 }
 
+#secondary {
+	float: right;
+	margin-bottom: 2em;
+	width: 26.666667%; /* 240px of 900px */
+}
+
+#secondary aside {
+	width: 100%;
+}
+
+#colophon {
+	background-color: #ffeaed;
+	border: 2px solid #e5a3ad;
+	border-radius: 12px;
+	padding: 13px;
+	text-align: -webkit-right;
+
+}
 
 /*--------------------------------------------------------------
 # Forms
@@ -805,14 +823,17 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
+	color: #ffcad2;
 }
 
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
+	color: #ffcad2;
 }
 
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
+	color: #ffcad2;
 }
 
 .main-navigation ul li:hover > ul,
