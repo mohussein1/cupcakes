@@ -674,19 +674,25 @@ a:active {
 	clear: both;
 	display: block;
 	float: left;
+	line-height: 2.25;
+	margin: 0.75 0 3em;
 	width: 100%;
+	padding-left: 30px;
+	
 }
 
 .main-navigation ul {
-	display: none;
+	display: inline-block;
 	list-style: none;
-	margin: 0;
+	margin: auto;
 	padding-left: 0;
+	width: auto;
 }
 
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding: 0 10px;
 }
 
 .main-navigation a {
