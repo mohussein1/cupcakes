@@ -833,7 +833,7 @@ a:active {
 
 .main-navigation a {
 	color: #a8a8a8;
-	font-weight: normal;
+	font-weight:bold;
 	letter-spacing: 0.05555em;
 	text-transform: uppercase;
 	display: inline-block;
@@ -876,6 +876,7 @@ a:active {
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
 	color: #ffcad2;
+	
 }
 
 .main-navigation ul ul a:hover,
@@ -1205,3 +1206,4 @@ object {
 .gallery-caption {
 	display: block;
 }
+
