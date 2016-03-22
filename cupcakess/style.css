@@ -154,7 +154,7 @@ html {
 }
 
 body {
-	background-color: #ffffff;
+	background-color: #fff4f6;
 	color: #747474;
 	font-family: 'Century Gothic', Arial, Helvetica, Tahoma, sans-serif;
 	font-size: 100%
@@ -793,18 +793,19 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	background-color:#ffe1e5;
-	border: 2px solid #e5a3ad;
+	background-color:#ffe3e7;
+	border: 1.5px solid #e5a3ad;
 	border-radius: 15px;
 	clear: both;
 	display: inline-block;
 	float: left;
 	text-decoration: none;
 	text-transform: lowercase;
+	letter-spacing: 0.234em;
 	line-height: 2.5;
 	margin: 0.75 0 3em;
 	width: 100%;
-	padding-left: 110px;
+	padding-left: 12px;
 	padding-bottom: 0px 
 	
 }
@@ -824,16 +825,18 @@ a:active {
 }
 
 .main-navigation a {
-	color: #ff8799;
+	color: #a8a8a8;
+	font-weight: normal;
 	display: inline-block;
 	text-decoration: none;
-	padding-bottom: 10px
+	text-transform: uppercase;
+	padding-bottom: 5px
 }
 
 .main-navigation ul ul {
-	background: #ffffff;
+	background: #fffcfc;
 	border: 1.5px solid #ff96a6;
-	border-radius: 13px;
+	border-radius: 7px;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	padding: 3px;
@@ -850,16 +853,19 @@ a:active {
 
 .main-navigation ul ul a {
 	width: 230px;
+	color: #ff8396;
+	letter-spacing: none;
 }
 
 .main-navigation ul ul li {
 	padding-left:15px;
+	letter-spacing:0;
 
 }
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
-	color: #ffcad2;
+	color:#ff8396;
 }
 
 .main-navigation ul ul :hover > a,
