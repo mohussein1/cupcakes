@@ -606,7 +606,7 @@ table {
 	margin: auto;
 	padding: 20px;
 	width: 93.75%;
-	align-content: center;
+	float: left;
 }
 
 #secondary {
@@ -620,11 +620,14 @@ table {
 }
 
 #colophon {
+	clear: both;
 	background-color: #ffeaed;
 	border: 2px solid #e5a3ad;
 	border-radius: 12px;
 	padding: 13px;
 	text-align: -webkit-right;
+	margin-left: 5px;
+	margin-right: 5px;
 
 }
 
