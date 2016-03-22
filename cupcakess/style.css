@@ -49,12 +49,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 html {
 	font-family: sans-serif;
+	overflow-x: hidden;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+	
 }
 
 body {
+	background-color: #000000;
+	color: #747474;
+	font-family: 'Century Gothic', Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 100%
+	font-weight: normal;
+	line-height: 1.4;
 	margin: 0;
+	padding: 0;
 }
 
 article,
@@ -100,7 +109,11 @@ a:hover {
 }
 
 abbr[title] {
-	border-bottom: 1px dotted;
+	
+	border-bottom-style:dotted;
+	 border-bottom-width:0;
+	 color:#ffffff;
+  	font-weight:bold;
 }
 
 b,
@@ -156,12 +169,18 @@ figure {
 }
 
 hr {
-	box-sizing: content-box;
-	height: 0;
+	border-top-color:#FF99CC;
+  	border-top-style: solid;
+  	border-width:1.5px 0 0;
+	display:block;
+  	height:0.9px;
+  	margin:1em 0 33px;
+  	padding:0;
 }
 
 pre {
 	overflow: auto;
+	word-wrap:break-word;
 }
 
 code,
@@ -179,7 +198,10 @@ select,
 textarea {
 	color: inherit;
 	font: inherit;
+	font-size:100%;
 	margin: 0;
+	vertical-align: baseline;
+	
 }
 
 button {
@@ -234,6 +256,7 @@ fieldset {
 	border: 1px solid #c0c0c0;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
+	
 }
 
 legend {
@@ -243,6 +266,8 @@ legend {
 
 textarea {
 	overflow: auto;
+  	resize:vertical;
+  	vertical-align:top;
 }
 
 optgroup {
