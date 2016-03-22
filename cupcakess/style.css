@@ -255,7 +255,9 @@ sub {
 }
 
 img {
-	border: 0;
+	border: 2px;
+	border-radius: 4px;
+	
 }
 
 svg:not(:root) {
@@ -590,6 +592,23 @@ table {
 	margin: 0 0 1.5em;
 	width: 100%;
 }
+
+
+.site-branding {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.8em;
+	padding: 1px;
+	padding-top: 10px;
+}
+
+#content {
+	margin: auto;
+	padding: 20px;
+	width: 93.75%;
+	align-content: center;
+}
+
 
 /*--------------------------------------------------------------
 # Forms
