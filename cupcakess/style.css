@@ -644,6 +644,12 @@ table {
 	width:%;
 }
 
+
+p.site-title {
+	display: none;
+}
+
+
 #secondary {
 	float: right;
 	margin-bottom: 2em;
