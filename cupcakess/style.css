@@ -929,7 +929,37 @@ a:active {
 	.main-navigation ul {
 		display: block;
 	}
+	.main-navigation ul {
+		display: block;
+
+	}
+main-navigation ul ul {
+	background: #fff9fa;
+	border: 1.5px solid #ff96a6;
+	border-radius: 13px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	padding: 3px;
+	position: absolute;
+	top: 2.7em;
+	left: -999em;
+	z-index: 99999;
 }
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul a {
+	width: 130px;
+}
+
+.main-navigation ul ul li {
+	padding-left:5px;
+
+}
+
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -1215,4 +1245,68 @@ object {
 	display: block;
 }
 
+<<<<<<< HEAD
+/* --------------------------------------
+responsive-code retrieved from inclass example mystyle.css
+-----------------------------------------*/
+	#primary{
+		float:right;
+		width:65%;
+	}
+	
+	#sidebar{
+		float:left;
+		width:35%;
+	}
+	
+	#widgets{
+		clear:both;
+		margin:auto;
+	}
+	
+@media screen and (max-width:750px){
+	#primary,
+	#sidebar{
+		float:none;
+		margin:auto;
+		padding:1%;
+		width:100%;
+	}
+	
+	.main-navigation ul{
+		background:transparent;
+		display:none;
+		margin:auto;
+		width:auto;
+	}
+	
 
+	.main-navigation li{
+		float:right;
+		padding:0;
+		positive: relative;
+		text-align: center;
+	}
+	
+
+	.main-navigation.menu ul li{
+		display: inline-block;
+		width:100%;
+	}
+	
+	
+	.main-naviation ul li a{
+	background-color: transparent;
+	}
+@media screen and (max-width:480px){
+	#primary,
+	#sidebar,
+	#widgets{
+		float:none;
+		margin:auto;
+		padding:1%;
+		width:100%;
+	}
+=======
+
+>>>>>>> origin/master
